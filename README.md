@@ -6,7 +6,7 @@ This repository contains a data pipeline jupyter notebook and markdown file, whi
 #### Computing ID: zzz2bx
 #### DOI  [![DOI](https://zenodo.org/badge/1215393099.svg)](https://doi.org/10.5281/zenodo.19802758)
 #### Press Release: [link to press release](https://github.com/annayao0602/data-by-design-project-2/blob/main/press_release.md)
-#### Pipeline [link to pipeline files](https://github.com/annayao0602/data-by-design-project-2/blob/main/pipeline.ipynb)
+#### Pipeline [link to pipeline files](https://github.com/annayao0602/data-by-design-project-2/blob/main/data_pipeline.ipynb)
 #### License [MIT License](https://github.com/annayao0602/data-by-design-project-2/blob/main/LICENSE)
 
 ## Problem Definition
