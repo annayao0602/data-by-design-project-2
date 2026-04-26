@@ -1,6 +1,6 @@
 # DS 4320 Project 2: How Well Do LLMS "Understand?"
 
-This repository contains a data pipeline jupyter notebook and markdown file, which can be run with mongoDB credentials to load the dataset. Additionally, there contains a press release with findings from the analysis pipeline code, a log file, and the press release visualization. To execute, install requirements in requirements.txt and connect to the mongoDB cluster.
+This repository contains a data pipeline jupyter notebook and markdown file, which can be run with mongoDB credentials to load the dataset. Additionally, there contains a press release with findings from the analysis pipeline code, a log file, and the press release visualization. To execute, install requirements in requirements.txt and connect to the mongoDB cluster to run pipeline code.
 
 #### Name: Anna Yao
 #### Computing ID: zzz2bx
