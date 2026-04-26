@@ -1,0 +1,55 @@
+2026-04-26 16:50:26,434 - INFO - Downloading dataset...
+2026-04-26 16:50:26,673 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Westing/LLM-Misalign-Climate-Change/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 16:50:26,970 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Westing/LLM-Misalign-Climate-Change/138cede944c797c6d1a2d268aade75cd81b7bc9f/README.md "HTTP/1.1 200 OK"
+2026-04-26 16:50:27,494 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Westing/LLM-Misalign-Climate-Change/resolve/138cede944c797c6d1a2d268aade75cd81b7bc9f/LLM-Misalign-Climate-Change.py "HTTP/1.1 404 Not Found"
+2026-04-26 16:50:28,877 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/Westing/LLM-Misalign-Climate-Change/Westing/LLM-Misalign-Climate-Change.py "HTTP/1.1 404 Not Found"
+2026-04-26 16:50:29,248 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Westing/LLM-Misalign-Climate-Change/resolve/138cede944c797c6d1a2d268aade75cd81b7bc9f/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-04-26 16:50:29,652 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=Westing/LLM-Misalign-Climate-Change "HTTP/1.1 200 OK"
+2026-04-26 16:50:29,698 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/Westing/LLM-Misalign-Climate-Change/resolve/138cede944c797c6d1a2d268aade75cd81b7bc9f/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-04-26 16:50:29,743 - INFO - Detecting language and filtering for English... 
+2026-04-26 16:50:29,758 - INFO - Original size: 44917
+2026-04-26 16:50:29,758 - INFO - English only size: 43241
+2026-04-26 16:50:29,758 - INFO - Cleaning and binning dirty intent labels...
+2026-04-26 16:50:55,025 - INFO - Success: Filtered and inserted documents into MongoDB!
+2026-04-26 16:50:57,653 - INFO - 
+Sample Document from MongoDB:
+2026-04-26 16:50:57,654 - INFO - ID: WildChat_bc25ae4c47d49e2183570a8b99d78dab
+2026-04-26 16:50:57,654 - INFO - Topics: ['A6. Environmental Monitoring', 'A1. Atmospheric Science & Climate Processes']
+2026-04-26 16:53:20,842 - INFO - Successfully formatted 43241 documents.
+2026-04-26 16:53:21,012 - INFO - Discovered 32 labels: ['INTENT_1a. Fact Lookup' 'INTENT_1b. Concept Definition'
+ 'INTENT_1c. Clarification / Verification' 'INTENT_1z. Others'
+ 'INTENT_2a. Reasoning / Causal Analysis'
+ 'INTENT_2b. Data Analysis / Calculation' 'INTENT_2c. Evaluation / Review'
+ 'INTENT_3a. General Advice'
+ 'INTENT_3b. Technical Assistance / Troubleshooting'
+ 'INTENT_3c. Planning / Strategy' 'INTENT_3d. Teaching / Skill Building'
+ 'INTENT_4a. Translation' 'INTENT_4b. Rewrite' 'INTENT_4c. Summarisation'
+ 'INTENT_4e. Information Extraction' 'INTENT_4z. Others'
+ 'INTENT_5a. General Text' 'INTENT_5b. Creative Story / Poem / Lyrics'
+ 'INTENT_5c. Hypothetical Scenario'
+ 'INTENT_5d. Role-play / Dialogue Simulation'
+ 'INTENT_5e. Multimodal Content Creation' 'INTENT_6a. Operational Writing'
+ 'INTENT_6b. Code Solution' 'INTENT_6c. Formula & Expressions'
+ 'INTENT_6d. Structured Generation' 'INTENT_7b. System / Resource Access'
+ 'INTENT_8a. Greeting / Small Talk'
+ 'INTENT_8b. Entertainment / Engagement' 'INTENT_8c. Emotional Support'
+ 'INTENT_8c. Emotional Support / Empathy' 'INTENT_8z. Others'
+ 'INTENT_9z. Others']
+2026-04-26 17:23:48,746 - INFO - Loading RoBERTa tokenizer...
+2026-04-26 17:23:51,127 - INFO - HTTP Request: HEAD https://huggingface.co/roberta-base/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-26 17:23:51,382 - INFO - HTTP Request: GET https://huggingface.co/roberta-base/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-26 17:23:51,384 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-26 17:23:52,642 - INFO - HTTP Request: GET https://huggingface.co/api/models/roberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 17:23:53,160 - INFO - HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-26 17:23:53,744 - INFO - HTTP Request: GET https://huggingface.co/api/models/roberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 17:23:53,950 - INFO - HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-26 17:23:54,179 - INFO - HTTP Request: HEAD https://huggingface.co/roberta-base/resolve/main/vocab.json "HTTP/1.1 200 OK"
+2026-04-26 17:23:54,856 - INFO - HTTP Request: GET https://huggingface.co/roberta-base/resolve/main/vocab.json "HTTP/1.1 200 OK"
+2026-04-26 17:23:56,261 - INFO - HTTP Request: HEAD https://huggingface.co/roberta-base/resolve/main/merges.txt "HTTP/1.1 200 OK"
+2026-04-26 17:23:56,652 - INFO - HTTP Request: GET https://huggingface.co/roberta-base/resolve/main/merges.txt "HTTP/1.1 200 OK"
+2026-04-26 17:23:57,743 - INFO - HTTP Request: HEAD https://huggingface.co/roberta-base/resolve/main/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-26 17:23:57,866 - INFO - HTTP Request: GET https://huggingface.co/roberta-base/resolve/main/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-26 17:24:00,672 - INFO - HTTP Request: HEAD https://huggingface.co/roberta-base/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-04-26 17:24:01,659 - INFO - HTTP Request: HEAD https://huggingface.co/roberta-base/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-04-26 17:24:02,405 - INFO - HTTP Request: HEAD https://huggingface.co/roberta-base/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-26 17:24:07,123 - INFO - Tokenizing the dataset...
