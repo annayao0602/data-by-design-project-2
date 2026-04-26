@@ -58,7 +58,7 @@ To acquire and process this data, a programmatic pipeline was established using 
 #### Code
 |Code|Description|Link|
 |---|---|---|
-|data_acquisition.ipynb|Extracted from hugging face, isolated only English text data|https://github.com/annayao0602/data-by-design-project-2/blob/main/pipeline.ipynb|
+|data_pipeline.ipynb|Extracted from hugging face, isolated only English text data|https://github.com/annayao0602/data-by-design-project-2/blob/main/data_pipeline.ipynb|
 
 #### Bias Identification
 Source/Selection Bias: The original data is sourced from LLM prompt logs (like WildChat) and Reddit. These platforms heavily skew toward younger, tech-savvy, and predominantly Western demographics. Rural populations or those without internet access—who are often the most impacted by climate change—are entirely unrepresented.
