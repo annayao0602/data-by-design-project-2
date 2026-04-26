@@ -1,14 +1,13 @@
 # DS 4320 Project 2: How Well Do LLMS "Understand?"
 
-[executive statement]
+This repository contains a data pipeline jupyter notebook and markdown file, which can be run with mongoDB credentials to load the dataset. Additionally, there contains a press release with findings from the analysis pipeline code, a log file, and the press release visualization. To execute, install requirements in requirements.txt and connect to the mongoDB cluster.
 
 #### Name: Anna Yao
 #### Computing ID: zzz2bx
-#### DOI  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19343179.svg)](https://doi.org/10.5281/zenodo.19343179)
-#### Press Release: [link to press release](https://github.com/annayao0602/DS-4320-Project-1/blob/main/press_release.md)
-#### Link to data: https://myuva-my.sharepoint.com/:f:/g/personal/zzz2bx_virginia_edu/IgB-EgFKxWcjRLIf0N2vfqlgAZLhVz1bKyLZ9IOmJxfAU_U?e=c3Xrje
-#### Pipeline [link to pipeline files](https://github.com/annayao0602/DS-4320-Project-1/blob/main/analysis_pipeline.ipynb)
-#### License [MIT License](https://github.com/annayao0602/DS-4320-Project-1/blob/main/LICENSE)
+#### DOI  [![DOI](https://zenodo.org/badge/1215393099.svg)](https://doi.org/10.5281/zenodo.19802758)
+#### Press Release: [link to press release](https://github.com/annayao0602/data-by-design-project-2/blob/main/press_release.md)
+#### Pipeline [link to pipeline files](https://github.com/annayao0602/data-by-design-project-2/blob/main/pipeline.ipynb)
+#### License [MIT License](https://github.com/annayao0602/data-by-design-project-2/blob/main/LICENSE)
 
 ## Problem Definition
 #### Initial general statement: 
@@ -59,7 +58,7 @@ To acquire and process this data, a programmatic pipeline was established using 
 #### Code
 |Code|Description|Link|
 |---|---|---|
-|data_acquisition.ipynb|Extracted from hugging face, isolated only English text data|https://github.com/annayao0602/data-by-design-project-2/blob/main/data_acquisition.ipynb|
+|data_acquisition.ipynb|Extracted from hugging face, isolated only English text data|https://github.com/annayao0602/data-by-design-project-2/blob/main/pipeline.ipynb|
 
 #### Bias Identification
 Source/Selection Bias: The original data is sourced from LLM prompt logs (like WildChat) and Reddit. These platforms heavily skew toward younger, tech-savvy, and predominantly Western demographics. Rural populations or those without internet access—who are often the most impacted by climate change—are entirely unrepresented.
